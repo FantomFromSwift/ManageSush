@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		4F7117B52D4A1A730089EFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F71179C2D4A1A700089EFAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F7117A32D4A1A700089EFAC;
+			remoteInfo = CrazySushiTime;
+		};
+		4F7117BF2D4A1A730089EFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F71179C2D4A1A700089EFAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F7117A32D4A1A700089EFAC;
+			remoteInfo = CrazySushiTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F7117A42D4A1A700089EFAC /* CrazySushiTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazySushiTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7117B42D4A1A730089EFAC /* CrazySushiTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazySushiTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7117BE2D4A1A730089EFAC /* CrazySushiTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazySushiTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4F7117A62D4A1A700089EFAC /* CrazySushiTime */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CrazySushiTime;
+			sourceTree = "<group>";
+		};
+		4F7117B72D4A1A730089EFAC /* CrazySushiTimeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CrazySushiTimeTests;
+			sourceTree = "<group>";
+		};
+		4F7117C12D4A1A730089EFAC /* CrazySushiTimeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CrazySushiTimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F7117A12D4A1A700089EFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7117B12D4A1A730089EFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7117BB2D4A1A730089EFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F71179B2D4A1A700089EFAC = {
+			isa = PBXGroup;
+			children = (
+				4F7117A62D4A1A700089EFAC /* CrazySushiTime */,
+				4F7117B72D4A1A730089EFAC /* CrazySushiTimeTests */,
+				4F7117C12D4A1A730089EFAC /* CrazySushiTimeUITests */,
+				4F7117A52D4A1A700089EFAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F7117A52D4A1A700089EFAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F7117A42D4A1A700089EFAC /* CrazySushiTime.app */,
+				4F7117B42D4A1A730089EFAC /* CrazySushiTimeTests.xctest */,
+				4F7117BE2D4A1A730089EFAC /* CrazySushiTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F7117A32D4A1A700089EFAC /* CrazySushiTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F7117C82D4A1A730089EFAC /* Build configuration list for PBXNativeTarget "CrazySushiTime" */;
+			buildPhases = (
+				4F7117A02D4A1A700089EFAC /* Sources */,
+				4F7117A12D4A1A700089EFAC /* Frameworks */,
+				4F7117A22D4A1A700089EFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4F7117A62D4A1A700089EFAC /* CrazySushiTime */,
+			);
+			name = CrazySushiTime;
+			packageProductDependencies = (
+			);
+			productName = CrazySushiTime;
+			productReference = 4F7117A42D4A1A700089EFAC /* CrazySushiTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F7117B32D4A1A730089EFAC /* CrazySushiTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F7117CB2D4A1A730089EFAC /* Build configuration list for PBXNativeTarget "CrazySushiTimeTests" */;
+			buildPhases = (
+				4F7117B02D4A1A730089EFAC /* Sources */,
+				4F7117B12D4A1A730089EFAC /* Frameworks */,
+				4F7117B22D4A1A730089EFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F7117B62D4A1A730089EFAC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4F7117B72D4A1A730089EFAC /* CrazySushiTimeTests */,
+			);
+			name = CrazySushiTimeTests;
+			packageProductDependencies = (
+			);
+			productName = CrazySushiTimeTests;
+			productReference = 4F7117B42D4A1A730089EFAC /* CrazySushiTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F7117BD2D4A1A730089EFAC /* CrazySushiTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F7117CE2D4A1A730089EFAC /* Build configuration list for PBXNativeTarget "CrazySushiTimeUITests" */;
+			buildPhases = (
+				4F7117BA2D4A1A730089EFAC /* Sources */,
+				4F7117BB2D4A1A730089EFAC /* Frameworks */,
+				4F7117BC2D4A1A730089EFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F7117C02D4A1A730089EFAC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4F7117C12D4A1A730089EFAC /* CrazySushiTimeUITests */,
+			);
+			name = CrazySushiTimeUITests;
+			packageProductDependencies = (
+			);
+			productName = CrazySushiTimeUITests;
+			productReference = 4F7117BE2D4A1A730089EFAC /* CrazySushiTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F71179C2D4A1A700089EFAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					4F7117A32D4A1A700089EFAC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					4F7117B32D4A1A730089EFAC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4F7117A32D4A1A700089EFAC;
+					};
+					4F7117BD2D4A1A730089EFAC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4F7117A32D4A1A700089EFAC;
+					};
+				};
+			};
+			buildConfigurationList = 4F71179F2D4A1A700089EFAC /* Build configuration list for PBXProject "CrazySushiTime" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F71179B2D4A1A700089EFAC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4F7117A52D4A1A700089EFAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F7117A32D4A1A700089EFAC /* CrazySushiTime */,
+				4F7117B32D4A1A730089EFAC /* CrazySushiTimeTests */,
+				4F7117BD2D4A1A730089EFAC /* CrazySushiTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F7117A22D4A1A700089EFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7117B22D4A1A730089EFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7117BC2D4A1A730089EFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F7117A02D4A1A700089EFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7117B02D4A1A730089EFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7117BA2D4A1A730089EFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F7117B62D4A1A730089EFAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F7117A32D4A1A700089EFAC /* CrazySushiTime */;
+			targetProxy = 4F7117B52D4A1A730089EFAC /* PBXContainerItemProxy */;
+		};
+		4F7117C02D4A1A730089EFAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F7117A32D4A1A700089EFAC /* CrazySushiTime */;
+			targetProxy = 4F7117BF2D4A1A730089EFAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F7117C62D4A1A730089EFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F7117C72D4A1A730089EFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F7117C92D4A1A730089EFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrazySushiTime/Preview Content\"";
+				DEVELOPMENT_TEAM = P5FX297WUC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.CrazySushiTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F7117CA2D4A1A730089EFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrazySushiTime/Preview Content\"";
+				DEVELOPMENT_TEAM = P5FX297WUC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.CrazySushiTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F7117CC2D4A1A730089EFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5FX297WUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.CrazySushiTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrazySushiTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CrazySushiTime";
+			};
+			name = Debug;
+		};
+		4F7117CD2D4A1A730089EFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5FX297WUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.CrazySushiTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrazySushiTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CrazySushiTime";
+			};
+			name = Release;
+		};
+		4F7117CF2D4A1A730089EFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5FX297WUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.CrazySushiTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrazySushiTime;
+			};
+			name = Debug;
+		};
+		4F7117D02D4A1A730089EFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5FX297WUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.CrazySushiTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrazySushiTime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F71179F2D4A1A700089EFAC /* Build configuration list for PBXProject "CrazySushiTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7117C62D4A1A730089EFAC /* Debug */,
+				4F7117C72D4A1A730089EFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F7117C82D4A1A730089EFAC /* Build configuration list for PBXNativeTarget "CrazySushiTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7117C92D4A1A730089EFAC /* Debug */,
+				4F7117CA2D4A1A730089EFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F7117CB2D4A1A730089EFAC /* Build configuration list for PBXNativeTarget "CrazySushiTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7117CC2D4A1A730089EFAC /* Debug */,
+				4F7117CD2D4A1A730089EFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F7117CE2D4A1A730089EFAC /* Build configuration list for PBXNativeTarget "CrazySushiTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7117CF2D4A1A730089EFAC /* Debug */,
+				4F7117D02D4A1A730089EFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F71179C2D4A1A700089EFAC /* Project object */;
+}
